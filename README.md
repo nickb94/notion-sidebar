@@ -12,4 +12,5 @@ I liked the locking sidebar on Notion.so workspace page, so I tried an almost lo
 - Open index.html on browser.
 
 ##### Note
+It imitates the Desktop version of workspace better than the mobile version.
 This is not an exact sidebar construction but works as a proof of concept. 
