@@ -56,9 +56,115 @@ document.getElementById("header").addEventListener("mouseover", () => {
 
 })
 
+document.getElementById("first").addEventListener("mouseenter", () => {
+
+    document.getElementById("first").style.background = "rgba(55, 53, 47, 0.08)"
+  
+})
+document.getElementById("first").addEventListener("mouseleave", () => {
+
+    document.getElementById("first").style.background = "none"
+
+})
 
 
-// on big button click
+document.getElementById("secondone").addEventListener("mouseenter", () => {
+
+    document.getElementById("secondone").style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementById("secondone").addEventListener("mouseleave", () => {
+
+    document.getElementById("secondone").style.background = "none"
+})
+
+document.getElementById("secondtwo").addEventListener("mouseenter", () => {
+
+    document.getElementById("secondtwo").style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementById("secondtwo").addEventListener("mouseleave", () => {
+
+    document.getElementById("secondtwo").style.background = "none"
+})
+
+document.getElementById("secondthree").addEventListener("mouseenter", () => {
+
+    document.getElementById("secondthree").style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementById("secondthree").addEventListener("mouseleave", () => {
+
+    document.getElementById("secondthree").style.background = "none"
+})
+
+
+document.getElementById("addapage").addEventListener("mouseenter", () => {
+
+    document.getElementById("addapage").style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementById("addapage").addEventListener("mouseleave", () => {
+
+    document.getElementById("addapage").style.background = "none"
+})
+
+
+document.getElementsByClassName("one")[0].addEventListener("mouseenter", () => {
+
+    document.getElementsByClassName("one")[0].style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementsByClassName("one")[0].addEventListener("mouseleave", () => {
+
+    document.getElementsByClassName("one")[0].style.background = "none"
+})
+
+document.getElementsByClassName("two")[0].addEventListener("mouseenter", () => {
+
+    document.getElementsByClassName("two")[0].style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementsByClassName("two")[0].addEventListener("mouseleave", () => {
+
+    document.getElementsByClassName("two")[0].style.background = "none"
+})
+
+document.getElementsByClassName("three")[0].addEventListener("mouseenter", () => {
+
+    document.getElementsByClassName("three")[0].style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementsByClassName("three")[0].addEventListener("mouseleave", () => {
+
+    document.getElementsByClassName("three")[0].style.background = "none"
+})
+
+
+document.getElementsByClassName("four")[0].addEventListener("mouseenter", () => {
+
+    document.getElementsByClassName("four")[0].style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementsByClassName("four")[0].addEventListener("mouseleave", () => {
+
+    document.getElementsByClassName("four")[0].style.background = "none"
+})
+
+document.getElementsByClassName("five")[0].addEventListener("mouseenter", () => {
+
+    document.getElementsByClassName("five")[0].style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementsByClassName("five")[0].addEventListener("mouseleave", () => {
+
+    document.getElementsByClassName("five")[0].style.background = "none"
+})
+
+
+document.getElementById("fourth").addEventListener("mouseenter", () => {
+
+    document.getElementById("fourth").style.background = "rgba(55, 53, 47, 0.08)"
+})
+document.getElementById("fourth").addEventListener("mouseleave", () => {
+
+    document.getElementById("fourth").style.background = "none"
+})
+
+
+
+// on btn button click
 document.getElementById("slideout").addEventListener("click", () => {
 
 
@@ -92,7 +198,8 @@ document.getElementById("slideout").addEventListener("click", () => {
     bt.id = "sliderbtn";
     document.getElementById("paddedname").appendChild(bt);
 
-    // on small button click
+
+    // on sliderbtn button click
     document.getElementById("sliderbtn").addEventListener("click", () => {
 
         box.classList.remove("locked");
@@ -104,6 +211,7 @@ document.getElementById("slideout").addEventListener("click", () => {
             box.classList.remove("unlocked");
 
         })
+
 
         document.getElementById("subheader").addEventListener("mousemove", () => {
 
