@@ -1,3 +1,4 @@
+
 ### About
 I liked the locking sidebar on Notion.so workspace page, so I tried an almost looking vanilla JS recreation. DOM manipulation, Eventlisteners are loud here.
 
@@ -11,6 +12,12 @@ I liked the locking sidebar on Notion.so workspace page, so I tried an almost lo
 - Clone the repository, or copy/paste from Git.
 - Open index.html on browser.
 
+
+### [Demo](https://nickb94.github.io/notion-sidebar/)
+
+
 ##### Note
 It imitates the Desktop version of workspace better than the mobile version.
 This is not an exact sidebar construction but works as a proof of concept. 
+
+
