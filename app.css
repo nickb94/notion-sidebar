@@ -100,7 +100,6 @@
 }
 
 #box {
-  height: calc(100vh - 120px);
   width: 192px;
   transform: translateX(-400px);
   z-index: 99;
@@ -119,7 +118,7 @@
   top: -45px;
   background: transparent;
   box-shadow: none;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 @keyframes topslide {
@@ -132,8 +131,7 @@
 }
 
 #box.unlocked {
-  animation: bottomslide 0.2s;
-  height: 470px;
+  animation: bottomslide 0.4s;
   width: 192px;
   z-index: 99;
   background-color: rgb(255, 255, 255);

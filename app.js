@@ -59,7 +59,7 @@ document.getElementById("header").addEventListener("mouseover", () => {
 document.getElementById("first").addEventListener("mouseenter", () => {
 
     document.getElementById("first").style.background = "rgba(55, 53, 47, 0.08)"
-  
+
 })
 document.getElementById("first").addEventListener("mouseleave", () => {
 
